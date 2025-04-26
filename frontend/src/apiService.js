@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/Students';
+const API_URL = 'https://student-management-1-5pie.onrender.com/api/Students';
 // Create axios instance
 const api = axios.create({
     baseURL: API_URL
